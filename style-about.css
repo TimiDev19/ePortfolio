@@ -15,17 +15,27 @@ body{
 }
 nav{
 	position: absolute;
+	font-size: 16px;
 	top: 0;
 	bottom: 0;
-	height: 101%;
+	height: 100%;
 	left: 0;
 	background: rgb(107, 102, 102);
-	width: 90px;
+	width: 19%;
 	overflow: hidden;
 	transition: width 0.2s linear;
 	box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
-
+.desk-float{
+	display: inline-flex;
+	float: right;
+	font-size: 18px;
+	font-family: "Poppins", sans-serif;
+	margin-left: 250px;
+	margin-top: 65%;
+	text-transform: uppercase;
+	font-weight: bold;
+}
 .logo{
 	text-align: center;
 	display: flex;
@@ -38,14 +48,14 @@ nav{
 }
 .logo span{
 	font-weight: bold;
-	padding: 15px;
+	padding: 20px;
 	font-size: 18px;
 	text-transform: uppercase;
 }
 a{
 	position:relative;
 	color: white;
-	font-size: 14px;
+	font-size: 18px;
 	display: table;
 	width: 300px;
 	padding: 10px;
@@ -73,7 +83,7 @@ nav:hover{
 }
 .h-message{
 	font-family: "Poppins", sans-serif;
-	margin-top: 2%;
+	margin-top: 25%;
 	text-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
 }
 .h-message2{
@@ -84,6 +94,6 @@ nav:hover{
 	width: 50%;
 }
 img{
-    margin-top: 1%;
+    margin-top: 20%;
 }
 
