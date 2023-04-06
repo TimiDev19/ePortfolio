@@ -50,6 +50,68 @@ body{
 	margin-top: 15px;
 	padding: 20px;
 }
+.box{
+	padding-bottom: 10px;
+	margin: 10px;
+	width: 80%;
+	height: fit-content;
+	box-shadow: 1px 0 10px #0000;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	background-color: rgb(31, 25, 25);
+	color: white;
+	border: 2px white solid;
+}
+.box img{
+	width: 100%;
+	height: auto;
+}
+.project-name{
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.site{
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(31, 25, 25);
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	margin: 15px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.site1{
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	padding-left: 10px;
+	padding-right: 5px;
+	background-color: rgb(31, 25, 25);
+	margin: 15px;
+	border: 2px solid white;
+	border-radius: 5px;
+}
+.site1:hover{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: white;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: rgb(31, 25, 25);
+	margin: 15px;
+	border-radius: 5px;
+}
+.site:hover{
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: rgb(31, 25, 25);
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: white;
+	margin: 15px;
+	border-radius: 5px;
+}
 .contact{
 	width: 80%;
 	border-top: 2px solid white;
@@ -83,4 +145,5 @@ body{
 	padding: 10px;
 	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	font-weight: 100;
+	font-size: 18px;
 }
