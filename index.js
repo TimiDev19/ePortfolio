@@ -43,3 +43,13 @@ ScrollReveal({
 
     ScrollReveal().reveal('.home-content, .heading', { origin: 'top'});
     ScrollReveal().reveal('.home-img, .stack-container, projects-box, .contact-form', { origin: 'bottom'});
+    ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left'});
+    ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right'});
+
+consttyped = new Typed('.multiple-text', {
+    strings: ['Frontend Developer', 'Software Engineer'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+});
