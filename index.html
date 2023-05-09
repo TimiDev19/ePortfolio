@@ -1,83 +1,148 @@
-<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<title>ePortfolio</title>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ePortfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-	<center>
-		<div class="home">
-			<p>
-				<h1 class="h-message">HELLO, I'M OLUWATIMILEHIN</h1>
-				<h2 class="h-message2">I am a Software Engineer, Web Developer.</h2>
-				<h2 class="h-message2">Welcome to my ePortfolio.</h2>
-			</p>
-		</div>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
 
-		<div class="about">
-			<p>
-				<h1 class="h-message3">ABOUT ME</h1>
-				<h2 class="h-message4">Hi, I'm a young and hungry software developer with a passion for creating solutions different from the normal way of doing things. With a solid foundation in computer science, I have experience in developing web applications using HTML, CSS, C#, JavaScript etc.</h2>
-				<h2 class="h-message4">I love to think outside the box and I am a highly driven individual, always eager to learn and stay up to date with the ever growing world of technology.</h2>
-				<h2 class="h-message4">In my leisure time, I often take part in development challenges to put my skills to the test, When I'm not glued to my computer, I like to watch football matches and spend time with friends and family.</h2>
-				<img src="./img/me.jpg" alt="">
-					
-				
-			</p>
-		</div>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#techstack">Techstack</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
 
-		<div class="projects">
-			<h1 class="h-message3">PROJECTS</h1>
-			<div class="box">
-				<img src="./img/toaa.png" alt="">
-				<h2 class="project-name">School application page</h2>
-				<p class="h-message4">
-					A responsive application page for a school with a records page as regards the acheivements of the school. 
-				</p>
-				<p class="h-message4">
-					The site sends all aplications straight to the school mail for reviewing.
-				</p>
-				<div>
-					<a href="https://github.com/TimiDev19/toahephzibahtutor.git" class="site1"><i class="fa-brands fa-github" style="color: #ffffff;"></i>GIT HUB</a>
-				<a href="https://toahephzibahtutor.vercel.app/" class="site"><i class="fa-solid fa-link" style="color: #1f1919;"></i>Live Site</a>
-				</div>
-			</div>
-		</div>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>HELLO, I AM</h3>
+            <h1>OLUWATIMILEHIN ROTIMI</h1>
+            <h3>I am a <span>FRONTEND DEVELOPER</span></h3>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>    
+            <a href="#" class="btn">RESUME</a>
+        </div>
 
-		<div class="stack">
-			<h1 class="h-message3">TECH STACK</h1>
-			<div class="html">
-				<img src="./img/html-logo.png" alt="">
-				<p>
-					Hypertext Markup Language is a standardized system for tagging text files to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages. 
-				</p>
-			</div>
-			<div class="html">
-				<img src="./img/css-logo.png" alt="">
-				<p>
-					Cascading Style Sheet describes how HTML elements are to be displayed on screen, paper, or in other media. 
-				</p>
-			</div>
-			<div class="html">
-				<img src="./img/Csharp_Logo.png" alt="">
-				<p>
-					C# is an object-oriented, component-oriented programming language which provides language constructs to directly support these concepts.
-				</p>
-			</div>
-			<div class="html">
-				<img src="./img/js-logo.png" alt="">
-				<p>
-					JavaScript is an object-oriented computer programming language commonly used to create interactive effects within web browsers.
-				</p>
-			</div>
-		</div>
+        <div class="home-img">
+            <img src="./img/main-picture.jpg" alt="">
+        </div>
+    </section>
 
-		<div class="contact">
-			<h1 class="h-message3">CONTACT ME</h1>
-			<a href="https://wa.me/09032223727" class="whatsapp"><img src="./img/whatsapp.png" alt=""></a>
-			<a href="https://www.linkedin.com/in/oluwatimilehin-rotimi-96b248256" class="whatsapp"><img src="./img/linkedin-pic.png" alt=""></a>
-		</div>
-	</center>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./img/main-picture.jpg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>I'm a young and hungry software developer with a passion for creating solutions different from the normal way of doing things. With a solid foundation in computer science, I have experience in developing web applications using HTML, CSS, C#, JavaScript etc.
+                I love to think outside the box and I am a highly driven individual, always eager to learn and stay up to date with the ever growing world of technology.
+                In my leisure time, I often take part in development challenges to put my skills to the test. When I'm not glued to my computer, I like to watch football matches and spend time with friends and family.
+            </p>
+        </div>
+    </section>
+
+    <projects class="section" id="projects">
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+            <div class="projects-box">
+                <img src="./img/toaa.png" alt="">
+                <div class="projects-layer">
+                    <h4>School Application Page</h4>
+                    <p>
+                        A responsive application page for a school with a records page as regards the acheivements of the school.
+                    The site sends all data collected from applicants straight to the school mail for reviewing.
+                    </p>
+                    <a href="#"><i class='bx bx-link-external' ></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </projects>
+
+    <section class="techstack" id="techstack">
+        <h2 class="heading">Tech<span>stack</span></h2>
+
+        <div class="stack-container">
+            <div class="stack-box">
+                <i class='bx bxl-html5'></i>
+                <h3>HTML</h3>
+                <p>
+                    Hypertext Markup Language (HTML) is a standardized system for tagging text files 
+                    to achieve font, colour, graphic, and hyperlink effects on World Wide Web pages.
+                </p>
+            </div>
+
+            <div class="stack-box">
+                <i class='bx bxl-css3'></i>
+                <h3>CSS</h3>
+                <p>
+                    Cascading Style Sheet (CSS) describes how HTML elements are to be displayed on screen, 
+                    paper, or in other media.
+                </p>
+            </div>
+
+            <div class="stack-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>C#</h3>
+                <p>
+                    C# is an object-oriented, component-oriented programming language which 
+                    provides language constructs to directly support these concepts.
+                </p>
+            </div>
+
+            <div class="stack-box">
+                <i class='bx bxl-javascript'></i>
+                <h3>JavaScript</h3>
+                <p>
+                    JavaScript is an object-oriented computer programming 
+                    language commonly used to create interactive effects within web browsers.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="E-mail Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>
+                Made and designed by Oluwatimilehin &copy;
+            </p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-home-alt-2'></i></a>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
 </body>
 </html>
