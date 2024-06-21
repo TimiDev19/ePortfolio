@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom"
 import me from '../assets/oluwatimilehin.jpg'
 import kanban from '../assets/kanban.webp'
+import invoice from '../assets/invoice-manager.webp'
 import reactLogo from '../assets/React.webp'
 import tailwindLogo from '../assets/tailwind.png'
 import reduxLogo from '../assets/redux-logo-vector.svg'
@@ -64,7 +65,8 @@ const Home = () => {
           <div className="border-t border-black flex-grow"></div>
         </div>
         <div className=" flex flex-col items-center justify-center">
-          <div className=" border-2 border-black flex flex-col sm:flex-row md:w-[85%] m-auto">
+
+          <div className=" border-2 border-black flex flex-col sm:flex-row md:w-[85%] m-auto mb-6">
             <img src={kanban} alt="" className=" w-full sm:w-[45%]" />
             <div className=" px-2 py-4 border-t sm:border-t-0 sm:border-l border-black">
               <h1 className=" font-bold text-xl"> Kanban Task Manager</h1>
@@ -75,8 +77,19 @@ const Home = () => {
                 <Link to='' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Live Site</Link>
               </div>
             </div>
+          </div>
 
-
+          <div className=" border-2 border-black flex flex-col sm:flex-row md:w-[85%] m-auto mb-6">
+            <img src={invoice} alt="" className=" w-full sm:w-[45%]" />
+            <div className=" px-2 py-4 border-t sm:border-t-0 sm:border-l border-black">
+              <h1 className=" font-bold text-xl"> Invoice Manager</h1>
+              <p className=" font-light">This is a fully funtional and responsive invoice management web application that uses Firebase for both the Database and Authentication. It allows users to create, update and delete invoices anf the addition of a dark and light mode feature all adds to the outstanding user experience.</p>
+              <h1 className=" font-bold mt-4 italic"> React, Firebase, TailwindCSS</h1>
+              <div className=" w-full flex items-center justify-center mt-5">
+                <Link to='' className=" mx-3 px-6 py-2 rounded-md border-black border-2 text-black">Github</Link>
+                <Link to='' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Live Site</Link>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -98,86 +111,6 @@ const Home = () => {
               {/* Languages */}
 
               <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={reactLogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=''>ReactJs</p>
-                  <h1 className=' text-sm'>React is the library for web and native user interfaces.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={typescriptLogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=''>Typescript</p>
-                  <h1 className=' text-sm'>TypeScript extends JavaScript by adding types to the language.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={tailwindLogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=' '>Tailwind CSS</p>
-                  <h1 className='  text-sm'>Tailwind CSS is a utility-first CSS framework for building modern websites without ever leaving your HTML.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={reduxLogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=' '>Redux</p>
-                  <h1 className='  text-sm'>Redux helps you write applications that behave consistently, run in different environments and are easy to test.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={viteLogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=' '>Vite</p>
-                  <h1 className='  text-sm'>Vite JS is majorly used to set up a development environment for various frameworks like React and Vue etc.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={githublogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=' '>Github</p>
-                  <h1 className='  text-sm'>Git is used to store the source code for a project and track the complete history of all changes to that code.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={bitbucketlogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=' '>BitBucket</p>
-                  <h1 className='  text-sm'>Bitbucket Cloud is a Git-based code and CI/CD tool optimized for teams using Jira.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={vercelLogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=' '>Vercel</p>
-                  <h1 className='  text-sm'>Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={javscriptLogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=' '>JavaScript</p>
-                  <h1 className='  text-sm'>JS is a scripting language that enables you to create dynamically updating content, control multimedia, and so much more.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
-                <img src={nextjsLogo} alt="" className=' w-[50px]' />
-                <div className=' ml-4'>
-                  <p className=' '>NextJs</p>
-                  <h1 className='  text-sm'>Next.js is a React framework that gives you building blocks to create web applications.</h1>
-                </div>
-              </div>
-
-              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
                 <img src={htmllogo} alt="" className=' w-[50px]' />
                 <div className=' ml-4'>
                   <p className=' '>HTML</p>
@@ -192,31 +125,6 @@ const Home = () => {
                   <h1 className='  text-sm'>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML.</h1>
                 </div>
               </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
               <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
                 <img src={reactLogo} alt="" className=' w-[50px]' />
@@ -298,6 +206,30 @@ const Home = () => {
                 </div>
               </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
                 <img src={htmllogo} alt="" className=' w-[50px]' />
                 <div className=' ml-4'>
@@ -313,6 +245,89 @@ const Home = () => {
                   <h1 className='  text-sm'>Cascading Style Sheets (CSS) is a style sheet language used for specifying the presentation and styling of a document written in a markup language such as HTML.</h1>
                 </div>
               </div>
+
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={reactLogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=''>ReactJs</p>
+                  <h1 className=' text-sm'>React is the library for web and native user interfaces.</h1>
+                </div>
+              </div>
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={typescriptLogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=''>Typescript</p>
+                  <h1 className=' text-sm'>TypeScript extends JavaScript by adding types to the language.</h1>
+                </div>
+              </div>
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={tailwindLogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=' '>Tailwind CSS</p>
+                  <h1 className='  text-sm'>Tailwind CSS is a utility-first CSS framework for building modern websites without ever leaving your HTML.</h1>
+                </div>
+              </div>
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={reduxLogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=' '>Redux</p>
+                  <h1 className='  text-sm'>Redux helps you write applications that behave consistently, run in different environments and are easy to test.</h1>
+                </div>
+              </div>
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={viteLogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=' '>Vite</p>
+                  <h1 className='  text-sm'>Vite JS is majorly used to set up a development environment for various frameworks like React and Vue etc.</h1>
+                </div>
+              </div>
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={githublogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=' '>Github</p>
+                  <h1 className='  text-sm'>Git is used to store the source code for a project and track the complete history of all changes to that code.</h1>
+                </div>
+              </div>
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={bitbucketlogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=' '>BitBucket</p>
+                  <h1 className='  text-sm'>Bitbucket Cloud is a Git-based code and CI/CD tool optimized for teams using Jira.</h1>
+                </div>
+              </div>
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={vercelLogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=' '>Vercel</p>
+                  <h1 className='  text-sm'>Vercel is the platform for frontend developers, providing the speed and reliability innovators need to create at the moment of inspiration.</h1>
+                </div>
+              </div>
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={javscriptLogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=' '>JavaScript</p>
+                  <h1 className='  text-sm'>JS is a scripting language that enables you to create dynamically updating content, control multimedia, and so much more.</h1>
+                </div>
+              </div>
+
+              <div className=" flex items-center h-[120px] border-2 border-black mx-2 px-2">
+                <img src={nextjsLogo} alt="" className=' w-[50px]' />
+                <div className=' ml-4'>
+                  <p className=' '>NextJs</p>
+                  <h1 className='  text-sm'>Next.js is a React framework that gives you building blocks to create web applications.</h1>
+                </div>
+              </div>
+
+
             </div>
 
           </div>
