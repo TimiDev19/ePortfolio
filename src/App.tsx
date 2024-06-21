@@ -29,8 +29,8 @@ function App() {
           // </div>
 
           <div className="h-full w-full flex items-center justify-center name-reveal-container">
-            <div className=' h-[25px] w-[25px] mx-4 bg-black rounded-full ball'></div>
-            <div className="name-reveal text-4xl font-thin">&lt; Oluwatimilehin /&gt;</div>
+            <div className=' h-[25px] w-[25px] md:h-[50px] md:w-[50px] mx-4 bg-black rounded-full ball'></div>
+            <div className="name-reveal text-4xl md:text-7xl font-thin">&lt; Oluwatimilehin /&gt;</div>
           </div>
         ) : (
           <BrowserRouter>
