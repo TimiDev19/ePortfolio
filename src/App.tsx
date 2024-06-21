@@ -20,12 +20,17 @@ function App() {
     <div className=' bg-[#F5F5F5] h-[100vh] w-[100vw] overflow-y-scroll'>
       {
         isLoading ? (
-          <div className=' h-full w-full flex items-center justify-center'>
-            <div className=' flex items-baseline justify-center h-fit'>
-              <div className=' h-[25px] w-[25px] mx-4 bg-black rounded-full ball'></div>
-            <h1 className=' text-3xl font-thin'>&lt; Oluwatimilehin /&gt;</h1>
-            </div>
-            
+          // <div className=' h-full w-full flex items-center justify-center'>
+          //   <div className=' flex items-baseline justify-center h-fit'>
+          //     <div className=' h-[25px] w-[25px] mx-4 bg-black rounded-full ball'></div>
+          //   <h1 className=' text-3xl font-thin'>&lt; Oluwatimilehin /&gt;</h1>
+          //   </div>
+
+          // </div>
+
+          <div className="h-full w-full flex items-center justify-center name-reveal-container">
+            <div className=' h-[25px] w-[25px] mx-4 bg-black rounded-full ball'></div>
+            <div className="name-reveal text-4xl font-thin">&lt; Oluwatimilehin /&gt;</div>
           </div>
         ) : (
           <BrowserRouter>

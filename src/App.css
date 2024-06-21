@@ -5,19 +5,40 @@
 
 @keyframes ball {
     0%{
-        transform: translateY(0%) translateX(0%);
+        transform: translateY(0%) ;
        
     }
     33%{
-        transform:  translateX(-30%) translateY(-60%);
+        transform:  translateY(-80%);
         
     }
     66%{
-        transform:  translateX(-30%) translateY(-60%);
+        transform:   translateY(-80%);
         
     }
     100%{
-        transform: translateY(0%) translateX(0%);
+        transform: translateY(0%) ;
         
+    }
+}
+
+
+.name-reveal-container {
+    overflow: hidden;
+    position: relative;
+    width: max-content;
+}
+
+.name-reveal {
+    position: relative;
+    animation: slideIn 1s forwards;
+    opacity: 0;
+    transform: translateX(-100%);
+}
+
+@keyframes slideIn {
+    to {
+        transform: translateX(0);
+        opacity: 1;
     }
 }
