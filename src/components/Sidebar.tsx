@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import me from '../assets/oluwatimilehin.jpg'
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
