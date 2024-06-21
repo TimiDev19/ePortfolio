@@ -20,11 +20,11 @@ const Sidebar = () => {
                 </div>
 
                 <div className=' hidden md:flex items-center'>
-                    <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Home</li></Link>
-                    <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>About</li></Link>
-                    <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Projects</li></Link>
-                    <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Techstack</li></Link>
-                    <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Contact</li></Link>
+                    <a href='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Home</li></a>
+                    <a href='/#about'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>About</li></a>
+                    <a href='/#projects'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Projects</li></a>
+                    <a href='/#techstack'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Techstack</li></a>
+                    <a href='/#contact'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Contact</li></a>
                 </div>
 
                 <div onClick={() => setIsDropdown(!isDropdown)} className=' md:hidden'>
@@ -36,11 +36,11 @@ const Sidebar = () => {
             {
                 isDropdown && <div className=' bg-white border-b-black border-b'>
                     <ul >
-                        <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Home</li></Link>
-                        <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>About</li></Link>
-                        <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Projects</li></Link>
-                        <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Techstack</li></Link>
-                        <Link to='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Contact</li></Link>
+                        <a href='/'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Home</li></a>
+                        <a href='/#about'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>About</li></a>
+                        <a href='/#projects'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Projects</li></a>
+                        <a href='/#techstack'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Techstack</li></a>
+                        <a href='/#contact'><li className=' py-1 mb-1 hover:bg-[#f5f5f5] px-4 hover:text-[#333333] duration-500 flex items-center font-thin'>Contact</li></a>
                     </ul>
                 </div>
             }

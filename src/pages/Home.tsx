@@ -26,14 +26,14 @@ const Home = () => {
           <h1 className=" text-xl font-thin sm:text-4xl md:text-5xl">I am a <span className=" text-gray-400">Frontend Developer</span>👨🏽‍💻</h1>
         </div>
         <div className=" w-full flex items-center justify-center mt-5">
-          <Link to='' className=" mx-3 px-6 py-2 rounded-md border-black border-2 text-black">Contact</Link>
-          <Link to='' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Resume</Link>
+          <a href="#about" className=" mx-3 px-6 py-2 rounded-md border-black border-2 text-black">Contact</a>
+          <Link target="blank" to='https://drive.google.com/file/d/1jDydZ1C1S0K6vTcNH1oALJ1Nft95Lpby/view?usp=sharing' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Resume</Link>
         </div>
       </div>
 
 
       {/* About Me */}
-      <div className=" h-fit w-full px-3 mb-6">
+      <div id="about" className=" h-fit w-full px-3 mb-6">
         <div className="flex items-center justify-center mb-4">
           <div className="border-t border-black flex-grow"></div>
           <div className="px-4 text-3xl font-bold uppercase">About Me</div>
@@ -58,7 +58,7 @@ const Home = () => {
 
 
       {/* Project Section */}
-      <div className=" h-fit w-full px-3 mb-6">
+      <div id="projects" className=" h-fit w-full px-3 mb-6">
         <div className="flex items-center justify-center mb-4">
           <div className="border-t border-black flex-grow"></div>
           <div className="px-4 text-3xl font-bold uppercase">Projects</div>
@@ -73,8 +73,8 @@ const Home = () => {
               <p className=" font-light">This is a fully funtional and responsive task management web application featuring a Kanban board. Users acn easily add, edit and delete tasks and it also features a dark and light mode option</p>
               <h1 className=" font-bold mt-4 italic"> React, TypeScript, TailwindCSS, Redux</h1>
               <div className=" w-full flex items-center justify-center mt-5">
-                <Link to='' className=" mx-3 px-6 py-2 rounded-md border-black border-2 text-black">Github</Link>
-                <Link to='' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Live Site</Link>
+                <Link target="blank" to='' className=" mx-3 px-6 py-2 rounded-md border-black border-2 text-black">Github</Link>
+                <Link target="blank" to='https://timi-kanban.vercel.app/' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Live Site</Link>
               </div>
             </div>
           </div>
@@ -87,7 +87,7 @@ const Home = () => {
               <h1 className=" font-bold mt-4 italic"> React, Firebase, TailwindCSS</h1>
               <div className=" w-full flex items-center justify-center mt-5">
                 <Link to='' className=" mx-3 px-6 py-2 rounded-md border-black border-2 text-black">Github</Link>
-                <Link to='' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Live Site</Link>
+                <Link to='https://timi-invoice-manager.vercel.app/' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Live Site</Link>
               </div>
             </div>
           </div>
@@ -97,7 +97,7 @@ const Home = () => {
 
 
       {/* Techstack */}
-      <div className=" h-fit w-full px-3 mb-6 mt-14">
+      <div id="techstack" className=" h-fit w-full px-3 mb-6 mt-14">
         <div className="flex items-center justify-center mb-4">
           <div className="border-t border-black flex-grow"></div>
           <div className="px-4 text-3xl font-bold uppercase">Techstack</div>
