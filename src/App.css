@@ -1,0 +1,23 @@
+.ball{
+    animation-name: ball;
+    animation-duration: 3s;
+}
+
+@keyframes ball {
+    0%{
+        transform: translateY(0%) translateX(0%);
+       
+    }
+    33%{
+        transform:  translateX(-30%) translateY(-60%);
+        
+    }
+    66%{
+        transform:  translateX(-30%) translateY(-60%);
+        
+    }
+    100%{
+        transform: translateY(0%) translateX(0%);
+        
+    }
+}
