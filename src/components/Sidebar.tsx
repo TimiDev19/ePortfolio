@@ -1,12 +1,28 @@
 import me from '../assets/oluwatimilehin.jpg'
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import ScrollReveal from 'scrollreveal';
+
 
 const Sidebar = () => {
     const [isDropdown, setIsDropdown] = useState(false)
+    const sectionRef = useRef(null);
+
+    useEffect(() => {
+        if (sectionRef.current) {
+            ScrollReveal().reveal(sectionRef.current, {
+                origin: 'top',
+                distance: '20px',
+                duration: 1000,
+                delay: 200,
+                easing: 'cubic-bezier(0.5, 0, 0, 1)',
+                reset: true
+            });
+        }
+    }, []);
     return (
-        <div className=' z-50 fixed w-full'>
+        <div ref={sectionRef} className=' z-50 fixed w-full'>
             <div className={` bg-white  h-[100px] ${!isDropdown && `border-b border-b-black`} p-2 flex w-full items-center justify-between`}>
                 <div className=' flex items-center justify-center h-full'>
 

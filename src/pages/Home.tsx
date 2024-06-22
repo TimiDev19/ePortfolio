@@ -2,13 +2,47 @@ import { Link } from "react-router-dom"
 import me from '../assets/oluwatimilehin.jpg'
 import '../slider.css'
 import techstack from "../helpers/helper"
+import { useEffect, useRef } from 'react';
+import ScrollReveal from 'scrollreveal';
+
 
 const Home = () => {
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    if (sectionRef.current) {
+      ScrollReveal().reveal(sectionRef.current, {
+        origin: 'bottom',
+        distance: '20px',
+        duration: 1000,
+        delay: 200,
+        easing: 'cubic-bezier(0.5, 0, 0, 1)',
+        reset: true
+      });
+    }
+  }, []);
+
+  const sectionRef1 = useRef(null);
+
+  useEffect(() => {
+    if (sectionRef1.current) {
+      ScrollReveal().reveal(sectionRef1.current, {
+        origin: 'right',
+        distance: '20px',
+        duration: 3000,
+        delay: 100,
+        easing: 'cubic-bezier(0.5, 0, 0, 1)',
+        reset: true
+      });
+    }
+  }, []);
+
+
 
   return (
     <div className=" h-full w-full">
       <div className=" h-[60vh] w-full flex flex-col items-center justify-center pt-[100px] px-3">
-        <div className=" uppercase text-center">
+        <div className=" uppercase text-center " ref={sectionRef}>
           <h1 className=" text-2xl sm:text-4xl md:text-5xl">Hello 👋🏽, i am oluwatimilehin</h1>
           <h1 className=" text-xl font-thin sm:text-4xl md:text-5xl">I am a <span className=" text-gray-400">Frontend Developer</span>👨🏽‍💻</h1>
         </div>
@@ -20,7 +54,7 @@ const Home = () => {
 
 
       {/* About Me */}
-      <div id="about" className=" h-fit w-full px-3 mb-6">
+      <div ref={sectionRef1} id="about" className=" h-fit w-full px-3 mb-6">
         <div className="flex items-center justify-center mb-4">
           <div className="border-t border-black flex-grow"></div>
           <div className="px-4 text-3xl font-bold uppercase">About Me</div>
@@ -61,7 +95,6 @@ const Home = () => {
                   <p className=" font-light">{project.description}</p>
                   <h1 className=" font-bold mt-4 italic"> {project.tech}</h1>
                   <div className=" w-full flex items-center justify-center mt-5">
-                    <Link target="blank" to={project.githubLink} className=" mx-3 px-6 py-2 rounded-md border-black border-2 text-black">Github</Link>
                     <Link target="blank" to={project.liveLink} className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Live Site</Link>
                   </div>
                 </div>
