@@ -12,6 +12,7 @@ import bitbucketlogo from '../assets/bitbucketlogo.webp'
 import githublogo from '../assets/github.png'
 import kanban from '../assets/kanban.webp'
 import invoice from '../assets/invoice-manager.webp'
+import Firebase from '../assets/firebase.webp'
 
 const techstack = {
     "languages": [
@@ -49,6 +50,11 @@ const techstack = {
             image: reduxLogo,
             name: "Redux",
             about: "Redux helps you write applications that behave consistently, run in different environments and are easy to test."
+        },
+        {
+            image: Firebase,
+            name: "Firebase",
+            about: "Firebase is a set of backend cloud computing services and application development platforms provided by Google."
         },
         {
             image: viteLogo,

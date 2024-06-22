@@ -5,7 +5,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Routes } from 'react-router-dom';
 import Home from './pages/Home';
 import Sidebar from './components/Sidebar';
-import { useEffect, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 
 function App() {
@@ -15,6 +15,22 @@ function App() {
       setIsLoading(false)
     }, 4000)
   })
+
+
+  const sectionRef = useRef(null);
+
+  useEffect(() => {
+    if (sectionRef.current) {
+      ScrollReveal().reveal(sectionRef.current, {
+        origin: 'bottom',
+        distance: '20px',
+        duration: 1000,
+        delay: 200,
+        easing: 'cubic-bezier(0.5, 0, 0, 1)',
+        reset: true
+      });
+    }
+  }, []);
 
   return (
     <div className=' bg-[#F5F5F5] h-[100vh] w-[100vw] overflow-y-scroll'>
