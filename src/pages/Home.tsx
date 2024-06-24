@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import me from '../assets/oluwatimilehin.jpg'
+import me from '../assets/timi.jpg'
 import '../slider.css'
 import techstack from "../helpers/helper"
 import { useEffect, useRef } from 'react';

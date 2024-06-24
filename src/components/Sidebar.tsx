@@ -1,4 +1,4 @@
-import me from '../assets/oluwatimilehin.jpg'
+import me from '../assets/timi.jpg'
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import { useEffect, useRef, useState } from 'react';
