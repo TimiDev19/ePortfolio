@@ -5,3 +5,7 @@
 .scrollbar-hide{
     scrollbar-width: 0;
 }
+
+.webImage{
+    border-radius: 50%;
+}
