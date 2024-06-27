@@ -13,6 +13,7 @@ import githublogo from '../assets/github.png'
 import kanban from '../assets/kanban.webp'
 import invoice from '../assets/invoice-manager.webp'
 import Firebase from '../assets/firebase.webp'
+import eCommerce from '../assets/eCommerceProject.png'
 
 const techstack = {
     "languages": [
@@ -111,6 +112,13 @@ const techstack = {
             description: "This is a fully funtional and responsive invoice management web application that uses Firebase for both the Database and Authentication. It allows users to create, update and delete invoices anf the addition of a dark and light mode feature all adds to the outstanding user experience.",
             liveLink: "https://timi-invoice-manager.vercel.app/",
             tech: "React, Firebase, TailwindCSS, Redux",
+        },
+        {
+            image: eCommerce,
+            title: "JMT Fashion Website",
+            description: "This is a fully funtional and responsive ecommerce web application that allows users do shopping from the comfort of their home. It features a cart where users can view edit and confirm their orders allowing a smooth and efficient user experience. The items are all being pulled from an api.",
+            liveLink: "https://timi-invoice-manager.vercel.app/",
+            tech: "React, TailwindCSS",
         },
     ]
 }
