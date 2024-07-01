@@ -117,7 +117,7 @@ const techstack = {
             image: eCommerce,
             title: "JMT Fashion Website",
             description: "This is a fully funtional and responsive ecommerce web application that allows users do shopping from the comfort of their home. It features a cart where users can view edit and confirm their orders allowing a smooth and efficient user experience. The items are all being pulled from an api.",
-            liveLink: "https://timi-invoice-manager.vercel.app/",
+            liveLink: "https://ecommerce-oluwatimilehin.vercel.app/",
             tech: "React, TailwindCSS",
         },
     ]
