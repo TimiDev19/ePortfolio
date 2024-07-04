@@ -102,14 +102,14 @@ const techstack = {
         {
             image: kanban,
             title: "Kanban Task Manager",
-            description: "This is a fully funtional and responsive task management web application featuring a Kanban board. Users acn easily add, edit and delete tasks and it also features a dark and light mode option",
+            description: "This is a fully functional and responsive task management web application featuring a Kanban board. Users can easily add, edit and delete tasks and it also features a dark and light mode option",
             liveLink: "https://timi-kanban.vercel.app/",
             tech: "React, TypeScript, TailwindCSS, Redux",
         },
         {
             image: invoice,
             title: "Invoice Manager",
-            description: "This is a fully funtional and responsive invoice management web application that uses Firebase for both the Database and Authentication. It allows users to create, update and delete invoices anf the addition of a dark and light mode feature all adds to the outstanding user experience.",
+            description: "This is a fully functional and responsive invoice management web application that uses Firebase for both the Database and Authentication. It allows users to create, update and delete invoices and the addition of a dark and light mode feature all adds to the outstanding user experience.",
             liveLink: "https://timi-invoice-manager.vercel.app/",
             tech: "React, Firebase, TailwindCSS, Redux",
         },

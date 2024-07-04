@@ -47,8 +47,8 @@ const Home = () => {
           <h1 className=" text-xl font-thin sm:text-4xl md:text-5xl">I am a <span className=" text-gray-400">Frontend Developer</span>👨🏽‍💻</h1>
         </div>
         <div className=" w-full flex items-center justify-center mt-5">
-          <a href="#contact" className=" mx-3 px-6 py-2 rounded-md border-black border-2 text-black">Contact</a>
-          <Link target="blank" to='https://drive.google.com/file/d/1jDydZ1C1S0K6vTcNH1oALJ1Nft95Lpby/view?usp=sharing' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Resume</Link>
+          <a href="#contact" className=" mx-3 px-6 py-2 rounded-md border-black border-2 text-black hover:text-white hover:bg-black duration-500">Contact</a>
+          <Link target="blank" to='https://drive.google.com/file/d/1jDydZ1C1S0K6vTcNH1oALJ1Nft95Lpby/view?usp=sharing' className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white hover:text-black hover:border-2 hover:border-black hover:bg-transparent duration-500 ">Resume</Link>
         </div>
       </div>
 
@@ -95,7 +95,7 @@ const Home = () => {
                   <p className=" font-light">{project.description}</p>
                   <h1 className=" font-bold mt-4 italic"> {project.tech}</h1>
                   <div className=" w-full flex items-center justify-center mt-5">
-                    <Link target="blank" to={project.liveLink} className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white">Live Site</Link>
+                    <Link target="blank" to={project.liveLink} className=" mx-3 px-6 py-2 rounded-md bg-black border-black border-2 text-white hover:text-black hover:border-2 hover:border-black hover:bg-transparent duration-500 ">Live Site</Link>
                   </div>
                 </div>
               </div>
@@ -163,7 +163,7 @@ const Home = () => {
           <input type="text" placeholder="Name" className=" w-full px-4 py-2 mb-6 border-2 border-black rounded-md bg-transparent text-black focus:outline-none placeholder:text-black"  required/>
           <input type="email" placeholder="Email" className=" w-full px-4 py-2 mb-6 border-2 border-black rounded-md bg-transparent text-black focus:outline-none placeholder:text-black"  required/>
           <textarea placeholder="Message" name="" id="" cols={30} rows={10} className=" w-full px-4 py-2 mb-6 border-2 border-black rounded-md bg-transparent text-black focus:outline-none placeholder:text-black" required></textarea>
-          <button className=" font-semibold text-white bg-black rounded-full px-4 py-2 mb-6">Send</button>
+          <button className=" font-semibold text-white bg-black rounded-full px-4 py-2 mb-6 hover:text-black hover:border-2 hover:border-black hover:bg-transparent duration-500 ">Send</button>
         </form>
       </div>
     </div>
