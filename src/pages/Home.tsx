@@ -57,7 +57,7 @@ const Home = () => {
       <div ref={sectionRef1} id="about" className=" h-fit w-full px-3 mb-6">
         <div className="flex items-center justify-center mb-4">
           <div className="border-t border-black flex-grow"></div>
-          <div className="px-4 text-3xl font-bold uppercase">About Me</div>
+          <div className="px-4 text-3xl font-bold uppercase">About Me 🧍🏽‍♂️</div>
           <div className="border-t border-black flex-grow"></div>
         </div>
         <div className=" flex flex-col items-center md:flex-row md:justify-center">
@@ -82,7 +82,7 @@ const Home = () => {
       <div id="projects" className=" h-fit w-full px-3 mb-6">
         <div className="flex items-center justify-center mb-4">
           <div className="border-t border-black flex-grow"></div>
-          <div className="px-4 text-3xl font-bold uppercase">Projects</div>
+          <div className="px-4 text-3xl font-bold uppercase">Projects 🧱</div>
           <div className="border-t border-black flex-grow"></div>
         </div>
         <div className=" flex flex-col items-center justify-center">
@@ -110,7 +110,7 @@ const Home = () => {
       <div id="techstack" className=" h-fit w-full px-3 mb-6 mt-14">
         <div className="flex items-center justify-center mb-4">
           <div className="border-t border-black flex-grow"></div>
-          <div className="px-4 text-3xl font-bold uppercase">Techstack</div>
+          <div className="px-4 text-3xl font-bold uppercase">Techstack 💻</div>
           <div className="border-t border-black flex-grow"></div>
         </div>
         <div className=" flex flex-col items-center justify-center">
@@ -155,7 +155,7 @@ const Home = () => {
       <div id="contact" className=" h-fit w-full px-3 mb-6 mt-14">
         <div className="flex items-center justify-center mb-4">
           <div className="border-t border-black flex-grow"></div>
-          <div className="px-4 text-3xl font-bold uppercase">Contact Me</div>
+          <div className="px-4 text-3xl font-bold uppercase">Contact Me ☎️</div>
           <div className="border-t border-black flex-grow"></div>
         </div>
 
