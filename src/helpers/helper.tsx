@@ -14,6 +14,7 @@ import kanban from '../assets/kanban.webp'
 import invoice from '../assets/invoice-manager.webp'
 import Firebase from '../assets/firebase.webp'
 import eCommerce from '../assets/eCommerceProject.png'
+import sugma from '../assets/sugma.png'
 
 const techstack = {
     "languages": [
@@ -105,6 +106,13 @@ const techstack = {
             description: "This is a fully functional and responsive task management web application featuring a Kanban board. Users can easily add, edit and delete tasks and it also features a dark and light mode option",
             liveLink: "https://timi-kanban.vercel.app/",
             tech: "React, TypeScript, TailwindCSS, Redux",
+        },
+        {
+            image: sugma,
+            title: "Sugma Airways Website",
+            description: "This is a fully funtional and responsive ecommerce web application that shows users a little bit about 'Sugma Airways' to serve as not only a buisness website but also an advertising opportunity.",
+            liveLink: "https://sugma-airways.vercel.app/",
+            tech: "NextJs, TailwindCSS, Framer Motion",
         },
         {
             image: invoice,
