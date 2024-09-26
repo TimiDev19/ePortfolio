@@ -15,6 +15,7 @@ import invoice from '../assets/invoice-manager.webp'
 import Firebase from '../assets/firebase.webp'
 import eCommerce from '../assets/eCommerceProject.png'
 import sugma from '../assets/sugma.png'
+import expressJs from '../assets/express.png'
 
 const techstack = {
     "languages": [
@@ -54,6 +55,16 @@ const techstack = {
             about: "Redux helps you write applications that behave consistently, run in different environments and are easy to test."
         },
         {
+            image: nextjsLogo,
+            name: "NextJS",
+            about: "Next.js is a React framework that gives you building blocks to create web applications."
+        },
+        {
+            image: expressJs,
+            name: "ExpressJs",
+            about: "Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications. APIs."
+        },
+        {
             image: Firebase,
             name: "Firebase",
             about: "Firebase is a set of backend cloud computing services and application development platforms provided by Google."
@@ -62,11 +73,6 @@ const techstack = {
             image: viteLogo,
             name: "Vite",
             about: "Vite JS is majorly used to set up a development environment for various frameworks like React and Vue etc."
-        },
-        {
-            image: nextjsLogo,
-            name: "NextJS",
-            about: "Next.js is a React framework that gives you building blocks to create web applications."
         },
         {
             image: javscriptLogo,

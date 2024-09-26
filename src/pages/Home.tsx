@@ -63,7 +63,7 @@ const Home = () => {
         <div className=" flex flex-col items-center md:flex-row md:justify-center">
           <div className=" w-full md:w-[55%]">
             <p className=" mb-4 font-light">
-              I am a dedicated front-end developer, I bring a wealth of experience and expertise to every project I work on. I am skilled at creating engaging, responsive web applications that are both functional and visually appealing using technologies like <span className=" font-bold">ReactJs, TypeScript, Redux, TailwindCSS</span> and more.
+              I am a dedicated front-end developer, I bring a wealth of experience and expertise to every project I work on. I am skilled at creating engaging, responsive web applications that are both functional and visually appealing using technologies like <span className=" font-bold">NextJs, ReactJs, TypeScript, Redux, TailwindCSS</span> and more.
             </p>
             <p className=" mb-4 font-light">
               My passion for programming and attention to detail allows me to craft intuitive user interfaces that enhance the user experience. In addition to my technical skills, I am also a strong communicator and collaborator, able to work effectively with both technical and non-technical team members. Whether working independently or as part of a team, I am committed to delivering high-quality work that meets and exceeds project requirements.
