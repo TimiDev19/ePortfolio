@@ -32,8 +32,10 @@ function App() {
     }
   }, []);
 
+  
+
   return (
-    <div className=' bg-[#F5F5F5] h-[100vh] w-[100vw] overflow-y-scroll'>
+    <div className=' bg-[#F5F5F5] h-[100vh] w-[100vw] overflow-y-scroll scroll-smooth urbanist'>
       {
         isLoading ? (
           // <div className=' h-full w-full flex items-center justify-center'>

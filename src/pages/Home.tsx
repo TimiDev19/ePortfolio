@@ -7,7 +7,6 @@ import ScrollReveal from 'scrollreveal';
 import { BsMailbox } from "react-icons/bs";
 import { GrDocument } from "react-icons/gr";
 
-
 const Home = () => {
   const sectionRef = useRef(null);
 
@@ -39,18 +38,16 @@ const Home = () => {
     }
   }, []);
 
-
-
   return (
-    <div className=" h-full w-full">
+    <div className=" h-full w-full scroll-smooth">
       <div id='home' ref={sectionRef} className=" h-[60vh] w-full flex flex-col items-center justify-center pt-[100px] px-3">
         <div className=" uppercase text-center " >
           <h1 className=" text-2xl sm:text-4xl md:text-5xl text-[#023047]">Hello 👋🏽, i am oluwatimilehin</h1>
           <h1 className=" text-xl font-thin sm:text-4xl md:text-5xl text-[#023047]">I am a <span className=" text-gray-400">Frontend Developer</span>👨🏽‍💻</h1>
         </div>
         <div className=" w-full flex items-center justify-center mt-5">
-          <a href="#contact" className=" flex items-center justify-center mx-3 px-6 py-2 rounded-md border-[#023047] border-2 text-[#023047] hover:text-white hover:bg-[#023047] duration-500"><BsMailbox className=" mx-2"/> Contact</a>
-          <Link target="blank" to='https://drive.google.com/file/d/1jDydZ1C1S0K6vTcNH1oALJ1Nft95Lpby/view?usp=sharing' className=" flex items-center justify-center mx-3 px-6 py-2 rounded-md bg-[#023047] border-[#023047] border-2 text-white hover:text-[#023047] hover:border-2 hover:border-[#023047] hover:bg-transparent duration-500"><GrDocument className=" mx-2"/>Resume</Link>
+          <a href="#contact" className=" flex items-center justify-center mx-3 px-6 py-2 rounded-md border-[#023047] border-2 text-[#023047] hover:text-white hover:bg-[#023047] duration-500"><BsMailbox className=" mx-2" /> Contact</a>
+          <Link target="blank" to='https://drive.google.com/file/d/1jDydZ1C1S0K6vTcNH1oALJ1Nft95Lpby/view?usp=sharing' className=" flex items-center justify-center mx-3 px-6 py-2 rounded-md bg-[#023047] border-[#023047] border-2 text-white hover:text-[#023047] hover:border-2 hover:border-[#023047] hover:bg-transparent duration-500"><GrDocument className=" mx-2" />Resume</Link>
         </div>
       </div>
 
@@ -162,8 +159,8 @@ const Home = () => {
         </div>
 
         <form action="mailto:rotimioluwatimilehin19@gmail.com" className=" w-full md:w-[50%] m-auto flex flex-col items-center justify-center">
-          <input type="text" placeholder="Name" className=" w-full px-4 py-2 mb-6 border-2 border-[#023047] rounded-md bg-transparent text-[#023047] focus:outline-none placeholder:text-[#023047]"  required/>
-          <input type="email" placeholder="Email" className=" w-full px-4 py-2 mb-6 border-2 border-[#023047] rounded-md bg-transparent text-[#023047] focus:outline-none placeholder:text-[#023047]"  required/>
+          <input type="text" placeholder="Name" className=" w-full px-4 py-2 mb-6 border-2 border-[#023047] rounded-md bg-transparent text-[#023047] focus:outline-none placeholder:text-[#023047]" required />
+          <input type="email" placeholder="Email" className=" w-full px-4 py-2 mb-6 border-2 border-[#023047] rounded-md bg-transparent text-[#023047] focus:outline-none placeholder:text-[#023047]" required />
           <textarea placeholder="Message" name="" id="" cols={30} rows={10} className=" w-full px-4 py-2 mb-6 border-2 border-[#023047] rounded-md bg-transparent text-[#023047] focus:outline-none placeholder:text-[#023047]" required></textarea>
           <button className=" font-semibold text-white bg-[#023047] rounded-full px-4 py-2 mb-6 hover:text-[#023047] hover:border-2 hover:border-[#023047] hover:bg-transparent duration-500 ">Send</button>
         </form>
